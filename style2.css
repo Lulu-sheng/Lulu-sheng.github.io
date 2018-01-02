@@ -1,0 +1,254 @@
+html {
+    padding: 0;
+    border: 0;
+}
+
+body i {
+    font-family:'FontAwesome'!important;
+}
+.home-page {
+    background-image: url("http://i63.tinypic.com/25an9xw.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:100%;
+    height:100%;
+}
+
+#Navbar {
+    position: fixed;
+    display: flex;
+    flex-direction:column;
+}
+
+.home-page__text {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    font-size: 100px;
+    width: 100%;
+}
+
+span {
+    margin-right: 0.3em;
+}
+
+h1 {
+    font-family: 'Yantramanav', sans-serif;
+    line-height:1.3; 
+    font-size:35px;
+    color: black;
+    font-weight: 900;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    line-height: 1.55;
+    color: #90caf9;
+}
+
+.about-me {
+    background-color: white;
+    width:100%;
+    height: 450px;
+}
+
+.about-me__styling {
+    width: 700px;
+}
+
+p {
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    line-height: 1.3;
+}
+
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 50px;
+    position: absolute;
+    top: 40%;
+    text-align: center; 
+    width: 100%;
+}
+
+#avatar {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+    width:200px;
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto;
+}
+
+.clickable-box {
+    background-image: url("http://i67.tinypic.com/walee1.png");
+    background-size: 100%;
+    width: 50%;
+    height: 350px;
+    border-bottom: 2px white solid;
+    transform: rotate(0deg);
+    
+}
+
+.clickable-box:hover {
+    color: hotpink;
+}
+#second-box{
+    background-image: url("http://i66.tinypic.com/160x0ef.png");
+}
+
+#third-box{
+    background-image: url("http://i68.tinypic.com/i5d4bo.png");
+}
+
+#fourth-box{
+    background-image: url("http://i66.tinypic.com/14jrbqb.png");
+}
+
+#fifth-box{
+    background-image: url("http://i65.tinypic.com/1mejt.png");
+}
+#sixth-box{
+    background-image: url("http://i68.tinypic.com/icp7cz.png");
+}
+#left-box {
+    border-right: 2px white solid;
+}
+
+ul {
+    display:flex;
+    flex-direction:column;
+    margin-top:10px;
+    margin-bottom:0;
+    margin-left:0;
+    margin-right:0;
+    padding:0;
+    list-style-type: none;
+}
+
+li {
+    margin-top:20px;
+    font-size:20px;
+}
+
+.container {
+    padding-right: 2.5rem;
+}
+
+.container1 {
+    padding-left: 100px;
+    padding-right:100px;
+}
+
+#featured_header {
+    margin-bottom: 40px;
+    padding-left: 12.5px;
+    padding-right: 12.5px;
+    padding-top:40px;
+}
+
+#icon-list {
+    position: absolute;
+    display: flex;
+    direction: row;
+    top: 270px;
+    left: 50%;
+    transform: translateX(-102px);
+
+    font-size:40px;
+}
+
+#icon {
+    color: #424242;
+    margin-right: 22px ;
+}
+
+#info-box1 {
+
+    background-color: #616161; 
+    width:50%;
+    border-right: 0;
+    border-bottom: 2px white solid;
+    border-top: 2px white solid;
+    height: 400px;
+    transform: rotate(0deg);
+}
+
+#info-box2 {
+    background-color: #547AA1;
+    width: 50%;
+    border-left: 2px solid white;
+    border-top: 2px white solid;
+    border-bottom: 2px white solid;
+    height: 400px;
+    text-align: center;
+    transform: rotate(0deg);
+}
+    
+.info-text {
+    width:500px;
+    text-align: left;
+    position: absolute;
+    margin-right: 75px;
+    margin-left: 75px;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+
+#featured-header {
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    border-right: 2px white solid;
+    width: 70%;
+    height: 150px;
+    border-bottom: 2px white solid;
+    float: left;
+}
+
+#code-image {
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/31/ba/7c/31ba7cc779eb847b2231c27ba7b2be40.jpg");
+    width: 30%;
+    border-bottom: 2px white solid;
+    height: 150px;
+    float: right;
+    transform: rotate(0deg);
+}
+
+#featured-title {
+    position: absolute;
+    bottom: 7px;
+    right: 10px;
+}
+
+.boxes {
+    overflow: auto;
+}
+
+.featuredStuff {
+    overflow: auto;
+}
+
+a:hover {
+    color: hotpink !important;
+}
+
+a:link, a:visited {
+    color: orange;
+}
+
