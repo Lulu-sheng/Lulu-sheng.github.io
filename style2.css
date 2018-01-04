@@ -117,7 +117,7 @@ h2 {
 /* The following selectors are applied to the "Featured Projects" header */
 
 #code-image {
-    background-image: url("https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg");
+    background-image: url("images/codeImage.jpg");
     background-repeat: no-repeat;
     background-size:100%;
     border-right: 2px white solid;
