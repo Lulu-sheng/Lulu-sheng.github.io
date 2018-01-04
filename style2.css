@@ -122,15 +122,15 @@ h2 {
     background-size:100%;
     border-right: 2px white solid;
     width: 70%;
-    height: inherit;
+    height: 150px;
     float: left;
 }
 
 #featured-header {
     position: relative;
-    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/31/ba/7c/31ba7cc779eb847b2231c27ba7b2be40.jpg");
+    background-color: #616161; 
     width: 30%;
-    height: inherit;
+    height: 150px;
     float: right;
 }
 
@@ -142,7 +142,6 @@ h2 {
 
 .featuredTitleSection {
     overflow: auto;
-    height: 150px;
     border-bottom: 2px white solid;
 }
 
