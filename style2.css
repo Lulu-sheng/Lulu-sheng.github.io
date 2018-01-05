@@ -7,12 +7,11 @@ body i {
     font-family:'FontAwesome'!important;
 }
 
+a:link, a:visited{
+    color: orange;
+}
 a:hover {
     color: hotpink !important;
-}
-
-a:link, a:visited {
-    color: orange;
 }
 
 /* The following selectors are applied to the homepage main section */
